@@ -60,12 +60,12 @@ service skytestserver /system/bin/skytestserver
 # Sensor daemon
 service orientationd /system/bin/orientationd
     class core
-    user compass system
+    user compass
     group input system
 
 service geomagneticd /system/bin/geomagneticd
     class core
-    user compass system
+    user compass
     group system input
 
 # QCOM Baseband script
