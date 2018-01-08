@@ -98,7 +98,7 @@ persist.fuse_sdcard=true
 debug.camera.landscape=true
 
 # System property for SIM
-persist.radio.apm_sim_not_pwdn=1
+# persist.radio.apm_sim_not_pwdn=1
 
 # System prop set mass storage to default
 persist.sys.usb.config=mass_storage,adb
