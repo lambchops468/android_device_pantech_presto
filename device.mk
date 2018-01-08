@@ -125,6 +125,7 @@ PRODUCT_PACKAGES += \
 
 # Device properties
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.low_ram=true \
     ro.bt.bdaddr_path=/data/misc/bd_addr \
     ro.sf.lcd_density=240 \
     telephony.lteOnGsmDevice=1
