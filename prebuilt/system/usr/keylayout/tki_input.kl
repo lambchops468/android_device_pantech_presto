@@ -248,6 +248,8 @@ key 217   SEARCH VIRTUAL
 # pz1946 in call wired long key fix
 key 226   HEADSETHOOK
 
+key 248   APP_SWITCH
+
 key 256   BUTTON_1
 key 257   BUTTON_2
 key 258   BUTTON_3
