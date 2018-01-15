@@ -56,6 +56,7 @@ service skytestserver /system/bin/skytestserver
     class core
     socket skytest stream 666
     user root
+    disabled
 
 # Sensor daemon
 service orientationd /system/bin/orientationd
