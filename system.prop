@@ -102,3 +102,13 @@ debug.camera.landscape=true
 
 # System prop set mass storage to default
 persist.sys.usb.config=mass_storage,adb
+
+#
+# Low Ram Configration
+#
+ro.config.low_ram=true
+# low_ram large app oom-kill defaults
+# Background App with this Proportional Set Size or larger will be penalised
+#ro.am.penalise_large_apps.pss=38228
+# The penalty is implemented by adjusting oom_adj to this value
+#ro.am.penalise_large_apps.adj=15

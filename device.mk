@@ -125,10 +125,6 @@ PRODUCT_PACKAGES += \
 
 # Device properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.low_ram=true \
-    \# low_ram large app oom-kill defaults \
-    \#ro.am.penalise_large_apps.pss=38228 \
-    \#ro.am.penalise_large_apps.adj=15 \
     ro.bt.bdaddr_path=/data/misc/bd_addr \
     ro.sf.lcd_density=240 \
     telephony.lteOnGsmDevice=1
